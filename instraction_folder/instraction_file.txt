@@ -1,8 +1,8 @@
-            =====> React || Beach Resort Project <=====
+            =====> React || Guesthouse Project <=====
                      Hotel Room Booking System
             -------------------------------------------
 
-1. CREATE-A-NEW-REACT-APP - npx create-react-app react-beach-resort-dev
+1. CREATE-A-NEW-REACT-APP - npx create-react-app react-guesthouse-dev
 
 2. module install -
     i. REACT-ICONS: npm install react-icons
