@@ -4,7 +4,6 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
 // import assets
-import Logo from '../../assets/img/svg/logo.svg'
 import { FaAlignRight, FaBed } from 'react-icons/fa'
 
 export default class Navbar extends Component {

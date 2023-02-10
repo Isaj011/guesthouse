@@ -43,7 +43,6 @@ export default class SingleRoom extends Component {
       name,
       description,
       capacity,
-      size,
       price,
       extras,
       breakfast,

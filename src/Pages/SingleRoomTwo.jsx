@@ -6,10 +6,8 @@ import img5 from '../assets/img/jpeg/room-5.jpeg'
 import room25 from '../assets/img/jpeg/details-25.jpeg'
 import room26 from '../assets/img/jpeg/details-26.jpeg'
 import room35 from '../assets/img/jpeg/details-35.jpeg'
-import room4 from '../assets/img/jpeg/details-4.jpeg'
 
 // import assets
-import defaultBcg from '../assets/img/jpeg/room-1.jpeg'
 
 // import components
 import Banner from '../Components/Banner/Banner'
@@ -17,18 +15,18 @@ import Banner from '../Components/Banner/Banner'
 import StyledHero from '../Components/StyledHero/StyledHero'
 
 export default class SingleRoomTwo extends Component {
-  constructor(props) {
-    super(props)
-    // console.log(this.props);
-    //   this.state = {
-    //     slug: this.props.match.params.slug,
-    //     defaultBcg
-    //   }
-    // }
+  // constructor(props) {
+  //   super(props)
+  //   // console.log(this.props);
+  //   //   this.state = {
+  //   //     slug: this.props.match.params.slug,
+  //   //     defaultBcg
+  //   //   }
+  //   // }
 
-    // static contextType = RoomContext
-    // componentDidMount() {}
-  }
+  //   // static contextType = RoomContext
+  //   // componentDidMount() {}
+  // }
   render() {
     // const { getRoom } = this.context
     // const room = getRoom(this.state.slug)

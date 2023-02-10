@@ -22,8 +22,6 @@ export default function RoomFilter({ rooms }) {
     price,
     minPrice,
     maxPrice,
-    minSize,
-    maxSize,
     breakfast,
     pets
   } = context
