@@ -15,16 +15,7 @@ const getUnique = (items, value) => {
 export default function RoomFilter({ rooms }) {
   const context = useContext(RoomContext)
 
-  const {
-    handleChange,
-    type,
-    capacity,
-    price,
-    minPrice,
-    maxPrice,
-    breakfast,
-    pets
-  } = context
+  const { handleChange, type, capacity, price, minPrice, maxPrice } = context
 
   // get unique types
   let types = getUnique(rooms, 'type')
@@ -129,9 +120,9 @@ export default function RoomFilter({ rooms }) {
         {/* size end */}
 
         {/* extras start */}
-        <div className='form-group'>
-          {/* breakfast checked */}
-          <div className='single-extra'>
+        {/* <div className='form-group'> */}
+        {/* breakfast checked */}
+        {/* <div className='single-extra'>
             <input
               type='checkbox'
               name='breakfast'
@@ -140,10 +131,10 @@ export default function RoomFilter({ rooms }) {
               onChange={handleChange}
             />
             <label htmlFor='breakfast'>breakfast</label>
-          </div>
+          </div> */}
 
-          {/* pets checked */}
-          <div className='single-extra'>
+        {/* pets checked */}
+        {/* <div className='single-extra'>
             <input
               type='checkbox'
               name='pets'
@@ -152,8 +143,8 @@ export default function RoomFilter({ rooms }) {
               onChange={handleChange}
             />
             <label htmlFor='pets'>pets</label>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
         {/* extras end */}
       </form>
     </section>

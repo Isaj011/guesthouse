@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 // imports react-icons
-import { FaWifi, FaBath, FaTv, FaPhoneVolume } from 'react-icons/fa'
+import { FaWifi, FaBath, FaTv, FaBroom } from 'react-icons/fa'
 
 // imports components
 import Title from '../Title/Title'
@@ -12,22 +12,22 @@ export default class Services extends Component {
       {
         icon: <FaWifi />,
         title: 'WiFi',
-        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores est eaque error provident unde eligendi.'
+        info: 'Free WiFi internet provided.'
       },
       {
         icon: <FaBath />,
         title: 'Shower',
-        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores est eaque error provident unde eligendi.'
+        info: 'Warm and hot shower available.'
       },
       {
         icon: <FaTv />,
         title: 'Tv',
-        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores est eaque error provident unde eligendi.'
+        info: 'All rooms have access to Television.'
       },
       {
-        icon: <FaPhoneVolume />,
-        title: 'Telephone',
-        info: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores est eaque error provident unde eligendi.'
+        icon: <FaBroom />,
+        title: 'Cleaning',
+        info: 'Proffesional cleaning services provided.'
       }
     ]
   }

@@ -12,8 +12,8 @@ function Home() {
     <>
       <Hero>
         <Banner
-          title='luxurious rooms'
-          subtitle='single rooms starting at Ksh. 4,000'
+          title='Home away from Home'
+          // subtitle='single rooms starting at Ksh. 4,000'
         >
           <Link to='/rooms' className='btn-primary'>
             our rooms

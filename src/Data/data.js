@@ -3,12 +3,9 @@ import room21 from '../assets/img/jpeg/details-21.jpeg'
 import room33 from '../assets/img/jpeg/details-33.jpeg'
 import room31 from '../assets/img/jpeg/details-31.jpeg'
 import room4 from '../assets/img/jpeg/details-4.jpeg'
-import room44 from '../assets/img/jpeg/details-44.jpeg'
 import img1 from '../assets/img/jpeg/room-1.jpeg'
 import img21 from '../assets/img/jpeg/room-21.jpeg'
 import img32 from '../assets/img/jpeg/room-32.jpeg'
-import img41 from '../assets/img/jpeg/room-41.jpeg'
-import img42 from '../assets/img/jpeg/room-42.jpeg'
 
 const data = [
   {
@@ -26,7 +23,7 @@ const data = [
       breakfast: true,
       featured: false,
       description:
-        'Missionary sisters of the Precious Blood Guesthouse has its aim of supporting its mission in Kenya. The guesthouse provides quality service to its customers guided by our policy that is in line with the international standards. Well furnished single, double rooms and executive room taken care by well trained housekeepers, quality kitchen, excellent dining services and spacious conference room and highly motivated waiters.',
+        "Welcome, Our guesthouse offers a comfortable and inviting atmosphere, with rooms that are both stylish and comfortable. Each room is equipped with plush bedding, ensuring that you'll get a good night's sleep and wake up refreshed.",
       extras: [
         'Plush pillows and breathable bed linens',
         'Soft, oversized bath towels',
@@ -83,7 +80,7 @@ const data = [
       breakfast: true,
       featured: true,
       description:
-        'Missionary sisters of the Precious Blood Guesthouse has its aim of supporting its mission in Kenya. The guesthouse provides quality service to its customers guided by our policy that is in line with the international standards. Well furnished single, double rooms and executive room taken care by well trained housekeepers, quality kitchen, excellent dining services and spacious conference room and highly motivated waiters.',
+        'Our friendly and helpful staff is always on hand to assist with anything you need, and we offer personalized services to help you make the most of your stay, such as customized tours and restaurant recommendations. We believe that staying at our guesthouse will provide you with a unique and unforgettable experience, immersing you in the local culture and offering one-of-a-kind activities.',
       extras: [
         'Plush pillows and breathable bed linens',
         'Soft, oversized bath towels',
@@ -140,7 +137,7 @@ const data = [
       breakfast: true,
       featured: true,
       description:
-        'Missionary sisters of the Precious Blood Guesthouse has its aim of supporting its mission in Kenya. The guesthouse provides quality service to its customers guided by our policy that is in line with the international standards. Well furnished single, double rooms and executive room taken care by well trained housekeepers, quality kitchen, excellent dining services and spacious conference room and highly motivated waiters.',
+        'Our guesthouse offers a relaxed and tranquil atmosphere, with rooms that are spacious, elegant, and tastefully decorated making it the perfect place to relax and unwind.',
       extras: [
         'Plush pillows and breathable bed linens',
         'Soft, oversized bath towels',
@@ -181,64 +178,64 @@ const data = [
         }
       ]
     }
-  },
-  {
-    sys: {
-      id: '4'
-    },
-    fields: {
-      name: 'surrounding environment',
-      slug: 'surrounding-environment',
-      type: 'surrounding',
-      price: null,
-      size: '',
-      capacity: '',
-      pets: 'true',
-      breakfast: true,
-      featured: false,
-      description:
-        'Missionary sisters of the Precious Blood Guesthouse has its aim of supporting its mission in Kenya. The guesthouse provides quality service to its customers guided by our policy that is in line with the international standards. Well furnished single, double rooms and executive room taken care by well trained housekeepers, quality kitchen, excellent dining services and spacious conference room and highly motivated waiters.',
-      extras: [
-        'Plush pillows and breathable bed linens',
-        'Soft, oversized bath towels',
-        'Full-sized, pH-balanced toiletries',
-        'Complimentary refreshments',
-        'Adequate safety/security',
-        'Internet',
-        'Comfortable beds'
-      ],
-      images: [
-        {
-          fields: {
-            file: {
-              url: img41
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: img41
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: img42
-            }
-          }
-        },
-        {
-          fields: {
-            file: {
-              url: room44
-            }
-          }
-        }
-      ]
-    }
   }
+  // {
+  //   sys: {
+  //     id: '4'
+  //   },
+  //   fields: {
+  //     name: 'surrounding environment',
+  //     slug: 'surrounding-environment',
+  //     type: 'surrounding',
+  //     price: null,
+  //     size: '',
+  //     capacity: '',
+  //     pets: 'true',
+  //     breakfast: true,
+  //     featured: false,
+  //     description:
+  //       'Missionary sisters of the Precious Blood Guesthouse has its aim of supporting its mission in Kenya. The guesthouse provides quality service to its customers guided by our policy that is in line with the international standards. Well furnished single, double rooms and executive room taken care by well trained housekeepers, quality kitchen, excellent dining services and spacious conference room and highly motivated waiters.',
+  //     extras: [
+  //       'Plush pillows and breathable bed linens',
+  //       'Soft, oversized bath towels',
+  //       'Full-sized, pH-balanced toiletries',
+  //       'Complimentary refreshments',
+  //       'Adequate safety/security',
+  //       'Internet',
+  //       'Comfortable beds'
+  //     ],
+  //     images: [
+  //       {
+  //         fields: {
+  //           file: {
+  //             url: img41
+  //           }
+  //         }
+  //       },
+  //       {
+  //         fields: {
+  //           file: {
+  //             url: img41
+  //           }
+  //         }
+  //       },
+  //       {
+  //         fields: {
+  //           file: {
+  //             url: img42
+  //           }
+  //         }
+  //       },
+  //       {
+  //         fields: {
+  //           file: {
+  //             url: room44
+  //           }
+  //         }
+  //       }
+  //     ]
+  //   }
+  // }
   // {
   //   sys: {
   //     id: '5'

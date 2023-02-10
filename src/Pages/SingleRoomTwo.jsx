@@ -99,6 +99,13 @@ export default class SingleRoomTwo extends Component {
                 double rooms and executive room taken care by well trained house
                 keepers, quality kitchen, excellent dining services and spacious
                 conference room and highly motivated waiters.
+                <br />
+                Our friendly and helpful staff is always on hand to assist with
+                anything you need, and we offer personalized services to help
+                you make the most of your stay. We believe that staying at our
+                guesthouse will provide you with a unique and unforgettable
+                experience, immersing you in the local culture and offering
+                one-of-a-kind activities.
               </p>
             </article>
 
@@ -109,7 +116,8 @@ export default class SingleRoomTwo extends Component {
               <h6>P.O BOX : 56333-00200</h6>
               <h6>
                 <FaSearchLocation />
-                &nbsp; The Junction at David Osieli Road off Waiyaki Way
+                &nbsp; The Junction at David Osieli Road off Waiyaki Way -
+                Westlands Nairobi
               </h6>
             </article>
           </div>
